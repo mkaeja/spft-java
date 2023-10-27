@@ -130,7 +130,7 @@ relative to the other times in the session
 `devices`: A list of hardware force devices with each element containing the full stream of data starting when one of the triggers is received
 `devices.*.times`: Timestamps of recorded values read from the input device using a CPU clock
 `devices.*.values`: Recorded values corresponding to participants pinch force collected by the device 
-`triggers`: A list of triggers received throughout the session
+`triggers`: A list of triggers recieved throughout the session
 `triggers.times`: CPU time trigger was received by computer
 `triggers.values`: Value recived to trigger the start of the first block
 `triggersOut`: If present, indicates serial out hardware device and port name for triggers sent to arduino. Contains the times and values for each trigger
